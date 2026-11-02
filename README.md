@@ -72,6 +72,63 @@ Backrow is an AI‑powered productivity platform that automates busywork for stu
 
 Everything profiled for Backrow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/backrow-ai/](https://apis.io/providers/backrow-ai/)** — or go straight to one of the APIs or properties below.
 
+### APIs (18)
+
+- [Backrow Chat API](https://apis.io/apis/backrow-ai/backrow-ai-chat-api/) — The chat API from Backrow — 1 operation(s) for chat.
+- [Backrow Credit Transactions API](https://apis.io/apis/backrow-ai/backrow-ai-credit-transactions-api/) — The credit-transactions API from Backrow — 1 operation(s) for credit-transactions.
+- [Backrow Diaries API](https://apis.io/apis/backrow-ai/backrow-ai-diaries-api/) — The diaries API from Backrow — 2 operation(s) for diaries.
+- [Backrow Documents API](https://apis.io/apis/backrow-ai/backrow-ai-documents-api/) — The documents API from Backrow — 3 operation(s) for documents.
+- [Backrow Flashcards API](https://apis.io/apis/backrow-ai/backrow-ai-flashcards-api/) — The flashcards API from Backrow — 4 operation(s) for flashcards.
+- [Backrow Health API](https://apis.io/apis/backrow-ai/backrow-ai-health-api/) — The health API from Backrow — 1 operation(s) for health.
+- [Backrow Knowledge State API](https://apis.io/apis/backrow-ai/backrow-ai-knowledge-state-api/) — The knowledge-state API from Backrow — 1 operation(s) for knowledge-state.
+- [Backrow Lessons API](https://apis.io/apis/backrow-ai/backrow-ai-lessons-api/) — The lessons API from Backrow — 4 operation(s) for lessons.
+- [Backrow Match Video API](https://apis.io/apis/backrow-ai/backrow-ai-match-video-api/) — The match-video API from Backrow — 1 operation(s) for match-video.
+- [Backrow Notes API](https://apis.io/apis/backrow-ai/backrow-ai-notes-api/) — The notes API from Backrow — 3 operation(s) for notes.
+- [Backrow Paths API](https://apis.io/apis/backrow-ai/backrow-ai-paths-api/) — The paths API from Backrow — 3 operation(s) for paths.
+- [Backrow Pricing API](https://apis.io/apis/backrow-ai/backrow-ai-pricing-api/) — The pricing API from Backrow — 1 operation(s) for pricing.
+- [Backrow Profile API](https://apis.io/apis/backrow-ai/backrow-ai-profile-api/) — The profile API from Backrow — 1 operation(s) for profile.
+- [Backrow Quizzes API](https://apis.io/apis/backrow-ai/backrow-ai-quizzes-api/) — The quizzes API from Backrow — 1 operation(s) for quizzes.
+- [Backrow Recommendations API](https://apis.io/apis/backrow-ai/backrow-ai-recommendations-api/) — The recommendations API from Backrow — 1 operation(s) for recommendations.
+- [Backrow Recordings API](https://apis.io/apis/backrow-ai/backrow-ai-recordings-api/) — The recordings API from Backrow — 3 operation(s) for recordings.
+- [Backrow Tools API](https://apis.io/apis/backrow-ai/backrow-ai-tools-api/) — The tools API from Backrow — 2 operation(s) for tools.
+- [Backrow Webhooks API](https://apis.io/apis/backrow-ai/backrow-ai-webhooks-api/) — The webhooks API from Backrow — 2 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Backrow Ai Agentic Access](https://apis.io/agentic-access/backrow-ai/backrow-ai-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Backrow API Rules](https://apis.io/rules/backrow-ai/backrow-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Backrow Ai Authentication](https://apis.io/security/backrow-ai/backrow-ai-authentication/)
+- [Backrow Ai Domain Security](https://apis.io/security/backrow-ai/backrow-ai-domain-security/)
+- [Backrow Ai Vulnerability Disclosure](https://apis.io/security/backrow-ai/backrow-ai-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Backrow Ai Scopes](https://apis.io/scopes/backrow-ai/backrow-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Backrow Ai Plans Pricing](https://apis.io/plans/backrow-ai/backrow-ai-plans-pricing/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -83,12 +140,53 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Sign up](https://backrow.ai/auth?mode=signup)
 - [Support](https://backrow.ai/contact)
 - [Blog](https://backrow.ai/blog)
+- [Security](https://backrow.ai/security-policy)
 - [Terms of service](https://backrow.ai/legal/terms)
-- [Privacy policy](https://backrow.ai/)
+- [Privacy policy](https://backrow.ai/legal/privacy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/backrow-ai/](https://apis.io/providers/backrow-ai/).
+**Kin Score 54.4** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 44.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 33.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/backrow-ai/](https://apis.io/providers/backrow-ai/).
 
 ## How this profile is made
 
